@@ -24,6 +24,49 @@ body{
     margin: 100px auto;
 }
 
+.gradient_btn{
+    width: 193px;
+    height: 66px;
+    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    padding: 15px 4px;
+    margin-right: 30px;
+}
+
+.list h2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #FFFFFF; 
+}
+
+.list li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 30px 0;
+    text-align: start;
+}
+
+.list li span{
+    width: 48px;
+    height: 48px;   
+    background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+    backdrop-filter: blur(4px);
+    border-radius: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    margin-right: 30px;
+}
+
 /* header  */
 
 header{
@@ -108,15 +151,6 @@ header{
 }
 
 .header_content button:first-of-type{
-    width: 193px;
-    height: 66px;
-    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
-    padding: 15px 4px;
     margin-right: 30px;
 }
 
@@ -193,48 +227,6 @@ header{
     grid-row: 3/5;
 }
 
-.nft_price_item button{
-    width: 193px;
-    height: 66px;
-    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: white;
-    padding: 15px 4px;
-    margin-right: 30px;
-}
-
-.nft_price_item h2{
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 56px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.nft_price_item li{
-    list-style: none;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 150%;
-    color: #FFFFFF;
-    margin: 30px 0;
-}
-
-.nft_price_item li span{
-    width: 48px;
-    height: 48px;   
-    background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
-    backdrop-filter: blur(4px);
-    border-radius: 14px;
-    display: inline-block;
-    text-align: center;
-    line-height: 48px;
-    margin-right: 30px;
-}
-
 .nft_price_item img{
     border-radius: 40px;
 }
@@ -270,4 +262,17 @@ header{
 .acre_content img:nth-child(2){
     padding-top: 100px;
     padding-bottom: 0px;
+}
+
+/* 400nfts */
+
+
+
+.nfts400_text{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nfts400 {
+    text-align: center;
 }

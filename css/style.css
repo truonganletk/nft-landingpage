@@ -344,3 +344,27 @@ header{
     margin-bottom: 70px;
 }
 
+/* game */
+
+.game h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.game_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game_content img{
+    border-radius: 40px;
+}
+
+.game_text{
+    width: 50%;
+}
+
+.game_text h2{
+    text-align: start;
+}

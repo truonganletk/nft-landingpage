@@ -368,3 +368,70 @@ header{
 .game_text h2{
     text-align: start;
 }
+
+/* footer */
+
+footer{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url(/images/Group\ 760.jpg);
+    background-blend-mode: overlay, normal;
+    background-size: cover;
+}
+
+.footer_content{
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_content img{
+    margin-left: 38px;
+}
+
+.footer_content ul{
+    padding: 0 10px;
+}
+
+.footer_content ul li{
+    display: inline;
+    margin-left: 34px;
+}
+
+.footer_content ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.footer_content ul li a.active, .footer_content ul li a:hover{
+    color:#CC23E4;
+    border-bottom: 3px solid#CC23E4;
+}
+
+.footer_social .footer_social_item{
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    background: linear-gradient(135.83deg, rgba(216, 227, 255, 0.2) 11.5%, rgba(255, 245, 238, 0.102) 83.39%, rgba(221, 231, 255, 0) 83.39%);
+    backdrop-filter: blur(4px);
+    border-radius: 14px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.footer_social .footer_social_item i{
+    font-size: 40px;
+    background: linear-gradient(45deg, #A98D58 16.77%, #B7995F 21.72%, #DDB771 30.2%, #FACF7F 36.57%, #FCE88C 50%, #FDFA96 59.19%, #F6E18E 67.68%, #E6A37B 85.35%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+

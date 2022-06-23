@@ -429,6 +429,7 @@ footer{
 .footer_social .footer_social_item i{
     font-size: 40px;
     background: linear-gradient(45deg, #A98D58 16.77%, #B7995F 21.72%, #DDB771 30.2%, #FACF7F 36.57%, #FCE88C 50%, #FDFA96 59.19%, #F6E18E 67.68%, #E6A37B 85.35%);
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 

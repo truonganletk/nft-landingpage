@@ -11,6 +11,10 @@ body{
     color:white;
 }
 
+button{
+    cursor: pointer;
+}
+
 .text_left{
     text-align: left;
 }
@@ -130,13 +134,22 @@ header{
     border-bottom: 3px solid#CC23E4;
 }
 
+.header_menu i{
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    font-size: 38px;
+    display: none;
+}
+
+
 .header_content{
     width: 90%;
 }
 
 .header_content h2{
     font-weight: 700;
-    font-size: 84px;
+    font-size: 80px;
     line-height: 98px;
     margin-bottom: 55px;
 }
@@ -220,6 +233,7 @@ header{
     position: absolute;
     right: 161px;
     top: 52px;
+    cursor: pointer;
 }
 
 /* nft_price  */
@@ -436,3 +450,59 @@ footer{
     -moz-text-fill-color: transparent;
 }
 
+
+@media screen and (max-width:1450px) {
+    .header_nav ul li{
+        margin-left: 7px;
+    }
+    .header_content h2{
+        font-size: 68px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header{
+        flex-wrap: wrap;
+    }
+    .header_nav{
+        margin-bottom:40px;
+    }
+
+    .header_menu i{
+        display: block;
+    }
+
+    .header_nav ul{
+        display: none;
+    }
+    .header_right button{
+        display: none;
+    }
+    .header_left{
+        width: 100%;
+        padding-left:0;
+    }
+    .header_right{
+        width: 100%;
+    }
+    .header_content{
+        width: 71%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .header_right {
+        height: 70%;
+    }
+
+    .header_right img{
+        max-height: 1400px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header_content{
+        width: 90%;
+    }
+}

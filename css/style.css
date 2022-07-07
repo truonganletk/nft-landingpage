@@ -598,22 +598,26 @@ footer{
         justify-content: center;
         margin-bottom: 50px;
     }
-
-    .roadmap_item_text{
-        background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
-        backdrop-filter: blur(4px);
-        border-radius: 14px;
-        width: 90%;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .roadmap_item_text ul{
-        width: 70%;
-    }
     
+    /* game */
+
+    .game_content{
+        flex-direction: column;
+    }
+
+    .game_content img{
+        border-radius: 40px;
+        margin-bottom: 50px;
+    }
+
+    .game_text{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .game_text h2{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:768px) {

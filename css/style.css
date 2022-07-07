@@ -342,7 +342,7 @@ header{
     backdrop-filter: blur(4px);
     border-radius: 14px;
     width: 90%;
-    height: 254px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -577,6 +577,43 @@ footer{
     .acre2_text button{
         margin-top: 50px;        
     }
+
+    /* roadmap */
+
+    .roadmap_content{
+        flex-direction: column;
+    }
+
+    .roadmap_item.mt{
+        margin-top: 0;
+    }
+
+    .roadmap_item.mb{
+        margin-bottom: 50px;
+    }
+
+    .roadmap_item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .roadmap_item_text{
+        background: linear-gradient(127.41deg, rgba(218, 37, 226, 0.2) 14.83%, rgba(87, 24, 243, 0.2) 110.24%, rgba(255, 245, 238, 0.2) 110.24%);
+        backdrop-filter: blur(4px);
+        border-radius: 14px;
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .roadmap_item_text ul{
+        width: 70%;
+    }
+    
 }
 
 @media screen and (max-width:768px) {

@@ -549,6 +549,34 @@ footer{
         padding-top: 0;
         padding-bottom: 0px;
     }
+
+    /* 400nfts */
+
+    .nfts400_text{
+        width: 90%;
+    }
+
+    /* acre2 */
+
+    .acre2_content{
+        flex-direction: column;
+    }
+
+    .acre2_content img{
+        width:935px;
+        object-fit: cover;
+        max-width: 100%;
+        margin-top: 50px;     
+    }
+
+    .acre2_text{
+        width: 90%;
+        text-align: center;
+    }
+
+    .acre2_text button{
+        margin-top: 50px;        
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -559,4 +587,6 @@ footer{
     }
 
     /* nft_price */
+
+    
 }

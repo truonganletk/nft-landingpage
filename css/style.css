@@ -342,7 +342,6 @@ header{
     backdrop-filter: blur(4px);
     border-radius: 14px;
     width: 90%;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -617,6 +616,44 @@ footer{
 
     .game_text h2{
         text-align: center;
+    }
+
+    /* footer */
+
+    .footer_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer_content img{
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+
+    .footer_content ul{
+        margin-bottom: 50px;
+    }   
+    
+
+    .footer_social .footer_social_item{
+        width: 52px;
+        height: 52px;
+        text-align: center;
+        background: linear-gradient(135.83deg, rgba(216, 227, 255, 0.2) 11.5%, rgba(255, 245, 238, 0.102) 83.39%, rgba(221, 231, 255, 0) 83.39%);
+        backdrop-filter: blur(4px);
+        border-radius: 14px;
+        display: inline-block;
+        line-height: 80px;
+    }
+
+    .footer_social .footer_social_item i{
+        font-size: 40px;
+        background: linear-gradient(45deg, #A98D58 16.77%, #B7995F 21.72%, #DDB771 30.2%, #FACF7F 36.57%, #FCE88C 50%, #FDFA96 59.19%, #F6E18E 67.68%, #E6A37B 85.35%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
     }
 }
 
